@@ -1,0 +1,28 @@
+python:
+  build: python/flask
+  command: python app.py
+  ports:
+    - "5000:5000"
+  volumes:
+    - python/flask:/app
+ruby:
+  build: ruby
+  command: bundle exec ruby sinatra.rb -o '0.0.0.0'
+  ports:
+    - "4567:4567"
+  volumes:
+    - ruby:/app
+go:
+  build: go
+  command: go run martini.go
+  ports:
+    - "3000:3000"
+  volumes:
+    - go:/go/src/github.com/startover/go-martini-fibonacci
+node:
+  build: node/express
+  command: npm start
+  ports:
+    - "8080:8080"
+  volumes:
+    - node/express:/app
