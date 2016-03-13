@@ -30,13 +30,15 @@ df50829f511b        fibonacciwebappbenchmark_python   "python app.py"          4
 
 ## Screenshots
 
-Now you can open your favorite Browser and visit http://localhost:{port}/{number}, for example:
+Now you can open your favorite Web Browser and visit http://localhost:{port}/{number}, for example:
 
-Open http://localhost:5000/10, you can see:
+Open http://localhost:5000/10, and you can see:
 
+```
 Python + Flask
-* * *
+
 fib(10): 55
+```
 
 ## Benchmark
 
@@ -98,7 +100,7 @@ Percentage of the requests served within a certain time (ms)
  100%    284 (longest request)
 ```
 
-For more detailed result, please refer to my blog: 
+For more detailed results, please refer to my blog: 
 
 http://startover.github.io/
 
