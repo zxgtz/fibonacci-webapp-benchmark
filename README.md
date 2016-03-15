@@ -102,7 +102,7 @@ Percentage of the requests served within a certain time (ms)
 
 For more detailed results, please refer to my blog: 
 
-http://startover.github.io/
+http://startover.github.io/articles/2016/03/15/python-ruby-go-node-benchmark/
 
 
 ## Links
