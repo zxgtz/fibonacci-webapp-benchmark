@@ -1,4 +1,4 @@
-var express = require("express");
+var express = require('express');
 var app = express();
 
 var fib = function (n) {
@@ -12,9 +12,9 @@ var fib = function (n) {
 };
 
 app.get("/:number", function (req, res) {
-        var number = req.param('number');            
+        var number = req.param('number');
         var result = fib(number);
-        res.send("Node + Express<hr> fib("+number+"): "+result);        
+        res.send("Node + Express<hr> fib("+number+"): "+result);
 });
 
 app.listen(8080);

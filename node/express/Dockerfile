@@ -1,4 +1,4 @@
-FROM node:0.12.7-wheezy
+FROM mhart/alpine-node:4
 
 ADD . /app
 WORKDIR /app
